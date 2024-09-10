@@ -13,8 +13,8 @@ const Footer = () => {
         {/* Logo and Copyright */}
         <div className="mb-6 md:mb-0 md:ml-[80px]"> {/* Added margin-left for more spacing */}
           <img src={tewoLogo} alt="EquiBloc Logo" className="mb-2 ml-[-18px]" width={250} />
-          <p>Tewo Republic Copyright © 2024</p>
-          <p>Tewo Republic - All rights Reserved.</p>
+          <p>Chakula Republic Copyright © 2024</p>
+          <p>Chakula Republic - All rights Reserved.</p>
         </div>
 
         {/* Contact Information */}

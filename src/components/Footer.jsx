@@ -13,8 +13,8 @@ const Footer = () => {
             height={50}
             className="mb-2"
           />
-          <p>EquiBloc Copyright © 2024</p>
-          <p>EquiBloc - All rights Reserved.</p>
+          <p>Chakula republic Copyright © 2024</p>
+          <p>Chakula republic - All rights Reserved.</p>
         </div>
 
         {/* Contact Information */}
