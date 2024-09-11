@@ -38,7 +38,7 @@ function Home() {
 
         <div className="max-w-1/2 z-10 mb-[400px] ml-10 relative">
           <h2 className="text-gray-800 text-lg mt-4 mb-6">Looking For Affordable Products From Trusted Sources?!</h2>
-          <h3 className="text-red-600 text-5xl font-bold mb-2">Tewo Republic Got You!</h3>
+          <h3 className="text-red-600 text-5xl font-bold mb-2">Chakula Republic Got You!</h3>
           <p className="text-gray-500 text-lg mb-2">Connect your wallet to get started</p>
           <Link>
             <button className="bg-green-600 text-white px-8 py-2 rounded-md font-bold">Get Started</button>

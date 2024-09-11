@@ -13,26 +13,16 @@ module.exports = {
     },
   },
   networks: {
-    "lisk-sepolia": {
-      url: "https://rpc.sepolia-api.lisk.com",
+   base: {
+      url: "https://base-sepolia.g.alchemy.com/v2/2CM4ba_Mac8PMo6GEyKFAZ8Nk2oTZJE-",
       accounts: [process.env.WALLET_KEY],
       gasPrice: 1000000000,
     },
   },
   etherscan: {
     apiKey: {
-      "lisk-sepolia": "123"
+      base: process.env.API_KEY
     },
-    customChains: [
-      {
-          network: "lisk-sepolia",
-          chainId: 4202,
-          urls: {
-              apiURL: "https://sepolia-blockscout.lisk.com/api",
-              browserURL: "https://sepolia-blockscout.lisk.com"
-          }
-      }
-    ]
   },
   sourcify: {
     enabled: false
